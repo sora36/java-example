@@ -20,7 +20,7 @@ public class Math
         {
             throw new IllegalArgumentException("Arguments must be >= 0");
         }
-        return a + b;
+        return a + b + 1;
     }
 
     public static final void main(String[] args)
